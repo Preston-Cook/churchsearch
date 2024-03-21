@@ -1,0 +1,24 @@
+{
+  "name": "seeding",
+  "version": "1.0.0",
+  "description": "Seeding utility for ChurchSearch",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "seed": "SEED=churches,testimonials node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trentonbalc/churchsearch.git"
+  },
+  "author": "Preston Cook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trentonbalc/churchsearch/issues"
+  },
+  "homepage": "https://github.com/trentonbalc/churchsearch#readme",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
